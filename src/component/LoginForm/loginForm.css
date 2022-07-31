@@ -1,0 +1,51 @@
+
+    .login-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 40%;
+      }
+      
+      .logo-container {
+        width: 250px;
+      }
+      
+      .logo-container > img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+      
+      .login-heading {
+        margin-bottom: 20px;
+        font-size: 38px;
+      }
+      
+      .input-fields > input {
+        margin-bottom: 20px;
+        width: 300px;
+        padding: 20px;
+        border: 1px solid rgb(192, 192, 192);
+      }
+      
+      .input-fields > input::placeholder {
+        font-size: 18px;
+        color: lightgray;
+      }
+      
+      .login-button {
+        margin-bottom: 20px;
+        width: 300px;
+        padding: 15px;
+        font-size: 18px;
+        color: white;
+        border: none;
+        background-color: rgb(175, 28, 40);
+        cursor: pointer;
+      }
+      
+      .forgot-password ~ a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+      }
